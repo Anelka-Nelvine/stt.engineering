@@ -1,0 +1,65 @@
+
+.btn.btn2{
+    display: block;
+    background: #0493cc;
+    height: 2rem;
+    width: 6rem;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    border-radius: 1rem;
+}
+form input, form textarea{
+    width: 20rem;
+    border: 5rem;
+    background: white;
+    padding: 1rem;
+    margin-top: 1rem;
+    color:black;
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+.email{
+    margin-bottom: 2rem;
+    } 
+.container{
+    
+    margin-top: 4rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    justify-items: center;
+    border: 0.1rem solid;
+    height: 30rem;
+    width: 28rem;
+    border-radius: 1rem;
+    background-color: wheat;
+}
+.form{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+}
+.detail{
+    margin-left: 1rem;
+    margin-top: 3rem;
+}
+.login{
+text-decoration: none;
+color: white;
+}
+/*for small screen */
+@media only screen and (max-width:60rem) {
+.container{
+    max-width: 100%;
+    flex: 1;
+    width: 100%;
+    margin: 0 ;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    }
+    form input, form textarea{
+        width: 10rem;
+    }
+    html{
+        scroll-behavior: auto;
+    }
+}    
+    

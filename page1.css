@@ -1,31 +1,35 @@
-.container{
-    width: 100%;
+body, html {
+    margin: 0;
+    padding: 0;
     height: 100%;
-    margin-left: 33rem;
-    margin-right: 40rem;
-    justify-items: center;
-    gap: 15rem; 
-    flex-direction: flex;
-    margin-top: 8rem;
+    font-family: Arial, sans-serif;
 }
 
-button{
-    width: 15%;
-    height:15% ;
-    flex: 1;
-    margin-right: 10rem;
-    margin-left: 3rem;
-    background: blue;
-   
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    border-radius: 2rem;
 }
-.log{
-    border-radius: 10rem;
-    border-color: brown;
+
+.logo img {
+    max-width: 100%; /* Responsive logo size */
+    height: auto; /* Maintain aspect ratio */
 }
-img{
-    flex: 3;
-}
-.connexion{
-    text-decoration: none;
+
+.login-button {
+    margin-top: 20px; /* Space between logo and button */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff; /* Button color */
     color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-button:hover {
+    background-color: #0056b3; /* Button hover color */
 }
