@@ -1,7 +1,31 @@
-.another{
+.container{
+    width: 100%;
+    height: 100%;
+    margin-left: 33rem;
+    margin-right: 40rem;
+    justify-items: center;
+    gap: 15rem; 
+    flex-direction: flex;
+    margin-top: 8rem;
+}
+
+button{
+    width: 15%;
+    height:15% ;
+    flex: 1;
+    margin-right: 10rem;
+    margin-left: 3rem;
+    background: blue;
+   
+}
+.log{
+    border-radius: 10rem;
+    border-color: brown;
+}
+img{
+    flex: 3;
+}
+.connexion{
     text-decoration: none;
     color: white;
-}
-.button{
-background: blue;
 }

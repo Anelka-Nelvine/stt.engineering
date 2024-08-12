@@ -16,7 +16,7 @@ body{
     padding: 2rem 2rem;
 }
  nav {
-    display: inline-flex;
+    display: flex;
    align-items: center;
    
     justify-content: space-between;
@@ -40,4 +40,9 @@ nav ul li a{
     width: 12rem;
     color: aliceblue;
     font-size: 40px;
+}
+.menu{
+    display: flex;
+    border-left: 15rem;
+    height: 4rem;
 }
