@@ -10,7 +10,7 @@
     border-radius: 1rem;
 }
 form input, form textarea{
-    width: 20rem;
+    width: 25rem;
     border: 5rem;
     background: white;
     padding: 1rem;
@@ -25,12 +25,10 @@ form input, form textarea{
 .container{
     
     margin-top: 4rem;
-    margin-left: 30rem;
-    margin-right: 30rem;
     justify-items: center;
     border: 0.1rem solid;
     height: 100vh;
-    width: 100%;
+    width: 100vh;
     border-radius: 1rem;
     background-color: wheat;
 }
