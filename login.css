@@ -6,6 +6,7 @@
     width: 6rem;
     margin-top: 4rem;
     margin-left: 10rem;
+    margin-right: 10rem;
     border-radius: 1rem;
 }
 form input, form textarea{
@@ -28,8 +29,8 @@ form input, form textarea{
     margin-right: 30rem;
     justify-items: center;
     border: 0.1rem solid;
-    height: 30rem;
-    width: 28rem;
+    height: 100vh;
+    width: 100%;
     border-radius: 1rem;
     background-color: wheat;
 }

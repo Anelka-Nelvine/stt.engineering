@@ -13,7 +13,7 @@ body{
     height: 100vh;
 }
 .container{
-    padding: 2rem 2rem;
+    padding: 1rem 1rem;
 }
  nav {
     display: flex;
@@ -24,25 +24,46 @@ body{
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 2rem 3rem;
+    margin: 2rem 2rem;
 }
 nav ul li a{
     text-decoration: none ;
     color: cornflowerblue;
     font-size: 2rem;
 }
-.btn{
- text-decoration: none;
+nav .menu{
+    display: block; 
 }
-.butn{
-    background: orangered;
+
+@media only screen and (max-width:64rem) {
+
+   body{
+    background-color: white;
+   }
+   nav ul li a{
+    color: white;
+   }
+  nav .menu{
+    display: block;
     height: 3rem;
+  }
+  nav ul{
+    background: rgb(219, 66, 11);
+    top: 0;
+    right: 0;
+    position: fixed;
     width: 12rem;
-    color: aliceblue;
-    font-size: 40px;
-}
-.menu{
-    display: flex;
-    border-left: 15rem;
-    height: 4rem;
+    height: 50rem;
+    padding-top: 6rem;
+  }
+  nav ul li{
+    display: block;
+    margin: 2rem;
+  }
+  nav ul .menu{
+    top: 1rem;
+    left: 1rem;
+    cursor: pointer;
+    position: absolute;
+  }
 }
